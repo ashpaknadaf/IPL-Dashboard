@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.responsive-container {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 48px;
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.recent-match-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 24px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    margin-top: 96px;
+    max-width: 1120px;
+  }
+  .recent-match-list {
+    margin-top: 32px;
+  }
+}
+
+.rcb-className {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+.kkr-className {
+  background-image: linear-gradient(to top, #1e293b, #5755a7);
+}
+.KXIP-className {
+  background-image: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.csk-className {
+  background-image: linear-gradient(to top, #1e293b, #f7db00);
+}
+.rr-className {
+  background-image: linear-gradient(to top, #1e293b, #da237b);
+}
+.mi-className {
+  background-image: linear-gradient(to top, #1e293b, #13418b);
+}
+.srh-className {
+  background-image: linear-gradient(to top, #1e293b, #f26d22);
+}
+.dc-className {
+  background-image: linear-gradient(to top, #1e293b, #4f5db0);
+}
